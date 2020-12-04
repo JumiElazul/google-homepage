@@ -20,6 +20,9 @@ a:hover {
 	text-decoration: underline;
 }
 
+footer {
+	font-size: 15px;
+}
 
 .header-left {
 	display: inline;
@@ -36,6 +39,31 @@ a:hover {
 	margin-right: 10px;	
 	position: relative;
 	top: 1.5vh;
+	right: 0.9vw;
+}
+
+.display-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 14vh;
+}
+
+.footer-left {
+	display: inline;
+	padding: 8px;
+	position: relative;
+	bottom: 1.8vh;
+	left: .8vw;
+}
+
+.footer-right {
+	float: right;
+	display: inline;
+	padding: 8px;
+	margin-right: 10px;	
+	position: relative;
+	bottom: 1.5vh;
 	right: 0.9vw;
 }
 
