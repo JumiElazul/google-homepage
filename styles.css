@@ -20,19 +20,35 @@ a:hover {
 	text-decoration: underline;
 }
 
-li {
-	display: inline;
-	padding: 8px;
-}
 
 .header-left {
+	display: inline;
+	padding: 8px;
 	position: relative;
 	top: 1.8vh;
 	left: .8vw;
 }
 
 .header-right {
+	float: right;
+	display: inline;
+	padding: 8px;
+	margin-right: 10px;	
 	position: relative;
-	top: 1.8vh;
-	left: 86vw;
+	top: 1.5vh;
+	right: 0.9vw;
+}
+
+#sign-in {
+	border: 1px solid #4285f4;
+	background: #2244FF;
+	font-weight: bold;
+	color: white;
+	padding: 9px;
+	border-radius: 4px;
+
+}
+
+#sign-in: active {
+	color: black;
 }
