@@ -1,0 +1,56 @@
+* {
+	margin:  0px;
+	padding: 0px;
+
+}
+
+body {
+	background-color:  #FFFFFF;
+	font-family:  arial, sans-serif;
+	font-size:  13px;
+}
+
+a {
+	color:  #000000;
+	opacity:  0.75;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+li {
+	list-style-type:  none;
+	padding: 8px;
+}
+
+.header-bar {
+	display: inline-flex;
+	flex-direction: row;
+	margin: 17px 17px;
+}
+
+.about {
+	order: 0;
+}
+
+.store {
+	order: 1;
+}
+
+.gmail {
+	order: 2;
+}
+
+.images {
+	order: 3;
+}
+
+.menu {
+	order: 4;
+}
+
+.sign-in {
+	order: 5;
+}
