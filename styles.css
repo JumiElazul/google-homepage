@@ -21,36 +21,18 @@ a:hover {
 }
 
 li {
-	list-style-type:  none;
+	display: inline;
 	padding: 8px;
 }
 
-.header-bar {
-	display: inline-flex;
-	flex-direction: row;
-	margin: 17px 17px;
+.header-left {
+	position: relative;
+	top: 1.8vh;
+	left: .8vw;
 }
 
-.about {
-	order: 0;
-}
-
-.store {
-	order: 1;
-}
-
-.gmail {
-	order: 2;
-}
-
-.images {
-	order: 3;
-}
-
-.menu {
-	order: 4;
-}
-
-.sign-in {
-	order: 5;
+.header-right {
+	position: relative;
+	top: 1.8vh;
+	left: 86vw;
 }
