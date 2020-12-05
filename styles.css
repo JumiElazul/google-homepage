@@ -21,6 +21,15 @@ a {
 	text-decoration: none;
 }
 
+#apps {
+	position: relative;
+	top: -7px;
+}
+
+#apps:hover {
+	background: black;
+}
+
 a:hover {
 	text-decoration: underline;
 }
